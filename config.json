@@ -1,0 +1,6 @@
+{
+  "data_path": "C:/Documents/Greatmix.AI/surgeries to predict.csv",
+  "test_size": 0.3,
+  "n_estimators": 300
+}
+
