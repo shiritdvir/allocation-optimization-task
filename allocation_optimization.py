@@ -152,7 +152,6 @@ class Population:
         selection = []
         fitness_list = [(allocation.number, allocation._get_fitness()) for allocation in self.population]
         sorted_values = sorted(fitness_list, key=lambda x: x[1], reverse=self.maximize)
-        print(sorted_values)
         for n in range(n_selected):
             selection.append(World.organisms_dict[sorted_values[n][0]])
         return selection
